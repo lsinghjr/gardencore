@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3193,6 +3193,26 @@ SMT- SWCH-08247</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,40.64,27.94,!RST,,,,,"/>
+<approved hash="106,1,12.7,10.16,A3,,,,,"/>
+<approved hash="106,1,12.7,12.7,A4,,,,,"/>
+<approved hash="106,1,12.7,15.24,A5,,,,,"/>
+<approved hash="106,1,12.7,17.78,A6,,,,,"/>
+<approved hash="106,1,12.7,20.32,A7,,,,,"/>
+<approved hash="106,1,40.64,12.7,D4,,,,,"/>
+<approved hash="106,1,40.64,15.24,D5,,,,,"/>
+<approved hash="106,1,40.64,17.78,D6,,,,,"/>
+<approved hash="106,1,40.64,20.32,D7,,,,,"/>
+<approved hash="106,1,-5.08,63.5,N$1,,,,,"/>
+<approved hash="106,1,-25.4,55.88,N$8,,,,,"/>
+<approved hash="106,1,12.7,30.48,RAW,,,,,"/>
+<approved hash="106,1,12.7,22.86,RX,,,,,"/>
+<approved hash="106,1,12.7,25.4,TX,,,,,"/>
+<approved hash="106,1,40.64,25.4,VDDA,,,,,"/>
+<approved hash="115,1,-21.8155,55.88,Q1,,,,,"/>
+<approved hash="115,1,48.26,50.4105,S1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
