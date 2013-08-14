@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="6.5.0">
+=======
+<eagle version="6.4">
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2854,11 +2858,19 @@ SMT- SWCH-08247</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="PAD-N" device="" value="pad1"/>
 <part name="PAD2" library="wirepad" deviceset="PAD-N" device="" value="pad2"/>
+<<<<<<< HEAD
 <part name="NPN" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="TO92"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="TEMP" library="linear" deviceset="LM50" device=""/>
+=======
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="TO92"/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="IC1" library="linear" deviceset="LM50" device=""/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -2888,11 +2900,19 @@ SMT- SWCH-08247</description>
 <instance part="GND4" gate="1" x="0" y="40.64"/>
 <instance part="PAD1" gate="G$1" x="-35.56" y="55.88"/>
 <instance part="PAD2" gate="G$1" x="5.08" y="63.5"/>
+<<<<<<< HEAD
 <instance part="NPN" gate="G$1" x="-22.86" y="55.88"/>
 <instance part="+3V1" gate="G$1" x="-58.42" y="12.7" rot="R270"/>
 <instance part="+3V2" gate="G$1" x="-33.02" y="-12.7" rot="R270"/>
 <instance part="+3V3" gate="G$1" x="-20.32" y="71.12" rot="R180"/>
 <instance part="TEMP" gate="G$1" x="-40.64" y="12.7"/>
+=======
+<instance part="Q1" gate="G$1" x="-22.86" y="55.88"/>
+<instance part="+3V1" gate="G$1" x="-58.42" y="12.7" rot="R270"/>
+<instance part="+3V2" gate="G$1" x="-33.02" y="-12.7" rot="R270"/>
+<instance part="+3V3" gate="G$1" x="-20.32" y="71.12" rot="R180"/>
+<instance part="IC1" gate="G$1" x="-40.64" y="12.7"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <instance part="+3V4" gate="G$1" x="35.56" y="50.8" rot="R180"/>
 <instance part="R8" gate="G$1" x="68.58" y="48.26" rot="R180"/>
 <instance part="GND5" gate="1" x="76.2" y="43.18"/>
@@ -2939,7 +2959,11 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
+<<<<<<< HEAD
 <pinref part="TEMP" gate="G$1" pin="GND"/>
+=======
+<pinref part="IC1" gate="G$1" pin="GND"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <wire x1="-50.8" y1="-2.54" x2="-40.64" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-2.54" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
 </segment>
@@ -2972,14 +2996,22 @@ SMT- SWCH-08247</description>
 <wire x1="-20.32" y1="60.96" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<<<<<<< HEAD
 <pinref part="NPN" gate="G$1" pin="C"/>
+=======
+<pinref part="Q1" gate="G$1" pin="C"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <wire x1="-20.32" y1="73.66" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-20.32" y="63.5"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<<<<<<< HEAD
 <pinref part="TEMP" gate="G$1" pin="+VS"/>
+=======
+<pinref part="IC1" gate="G$1" pin="+VS"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <wire x1="-60.96" y1="12.7" x2="-50.8" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3064,7 +3096,11 @@ SMT- SWCH-08247</description>
 <wire x1="-30.48" y1="12.7" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="12.7" x2="-25.4" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
+<<<<<<< HEAD
 <pinref part="TEMP" gate="G$1" pin="VO"/>
+=======
+<pinref part="IC1" gate="G$1" pin="VO"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </segment>
 </net>
 <net name="TX" class="0">
@@ -3175,13 +3211,21 @@ SMT- SWCH-08247</description>
 <label x="2.54" y="7.62" size="1.778" layer="95"/>
 <wire x1="-20.32" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-20.32" y="48.26"/>
+<<<<<<< HEAD
 <pinref part="NPN" gate="G$1" pin="E"/>
+=======
+<pinref part="Q1" gate="G$1" pin="E"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <wire x1="-35.56" y1="55.88" x2="-25.4" y2="55.88" width="0.1524" layer="91"/>
+<<<<<<< HEAD
 <pinref part="NPN" gate="G$1" pin="B"/>
+=======
+<pinref part="Q1" gate="G$1" pin="B"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3193,6 +3237,29 @@ SMT- SWCH-08247</description>
 </nets>
 </sheet>
 </sheets>
+<<<<<<< HEAD
+=======
+<errors>
+<approved hash="106,1,40.64,27.94,!RST,,,,,"/>
+<approved hash="106,1,12.7,10.16,A3,,,,,"/>
+<approved hash="106,1,12.7,12.7,A4,,,,,"/>
+<approved hash="106,1,12.7,15.24,A5,,,,,"/>
+<approved hash="106,1,12.7,17.78,A6,,,,,"/>
+<approved hash="106,1,12.7,20.32,A7,,,,,"/>
+<approved hash="106,1,40.64,12.7,D4,,,,,"/>
+<approved hash="106,1,40.64,15.24,D5,,,,,"/>
+<approved hash="106,1,40.64,17.78,D6,,,,,"/>
+<approved hash="106,1,40.64,20.32,D7,,,,,"/>
+<approved hash="106,1,-5.08,63.5,N$1,,,,,"/>
+<approved hash="106,1,-25.4,55.88,N$8,,,,,"/>
+<approved hash="106,1,12.7,30.48,RAW,,,,,"/>
+<approved hash="106,1,12.7,22.86,RX,,,,,"/>
+<approved hash="106,1,12.7,25.4,TX,,,,,"/>
+<approved hash="106,1,40.64,25.4,VDDA,,,,,"/>
+<approved hash="115,1,-21.8155,55.88,Q1,,,,,"/>
+<approved hash="115,1,48.26,50.4105,S1,,,,,"/>
+</errors>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </schematic>
 </drawing>
 </eagle>
