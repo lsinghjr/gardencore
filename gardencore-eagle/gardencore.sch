@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="6.5.0">
+=======
+<eagle version="6.4">
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2824,115 +2828,6 @@ SMT- SWCH-08247</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1X03">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1X03/90">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
-<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
-<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
-<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
-<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
-<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PINHD3">
-<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="/90" package="1X03/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2963,16 +2858,23 @@ SMT- SWCH-08247</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="PAD-N" device="" value="pad1"/>
 <part name="PAD2" library="wirepad" deviceset="PAD-N" device="" value="pad2"/>
+<<<<<<< HEAD
+<part name="NPN" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="TO92"/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="TEMP" library="linear" deviceset="LM50" device=""/>
+=======
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="TO92"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC1" library="linear" deviceset="LM50" device=""/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="PTH"/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2998,16 +2900,23 @@ SMT- SWCH-08247</description>
 <instance part="GND4" gate="1" x="0" y="40.64"/>
 <instance part="PAD1" gate="G$1" x="-35.56" y="55.88"/>
 <instance part="PAD2" gate="G$1" x="5.08" y="63.5"/>
+<<<<<<< HEAD
+<instance part="NPN" gate="G$1" x="-22.86" y="55.88"/>
+<instance part="+3V1" gate="G$1" x="-58.42" y="12.7" rot="R270"/>
+<instance part="+3V2" gate="G$1" x="-33.02" y="-12.7" rot="R270"/>
+<instance part="+3V3" gate="G$1" x="-20.32" y="71.12" rot="R180"/>
+<instance part="TEMP" gate="G$1" x="-40.64" y="12.7"/>
+=======
 <instance part="Q1" gate="G$1" x="-22.86" y="55.88"/>
 <instance part="+3V1" gate="G$1" x="-58.42" y="12.7" rot="R270"/>
 <instance part="+3V2" gate="G$1" x="-33.02" y="-12.7" rot="R270"/>
 <instance part="+3V3" gate="G$1" x="-20.32" y="71.12" rot="R180"/>
 <instance part="IC1" gate="G$1" x="-40.64" y="12.7"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <instance part="+3V4" gate="G$1" x="35.56" y="50.8" rot="R180"/>
 <instance part="R8" gate="G$1" x="68.58" y="48.26" rot="R180"/>
 <instance part="GND5" gate="1" x="76.2" y="43.18"/>
 <instance part="S1" gate="S" x="48.26" y="48.26"/>
-<instance part="JP3" gate="A" x="101.6" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -3050,7 +2959,11 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
+<<<<<<< HEAD
+<pinref part="TEMP" gate="G$1" pin="GND"/>
+=======
 <pinref part="IC1" gate="G$1" pin="GND"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <wire x1="-50.8" y1="-2.54" x2="-40.64" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-2.54" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
 </segment>
@@ -3059,11 +2972,6 @@ SMT- SWCH-08247</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="73.66" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="48.26" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
-<label x="127" y="50.8" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="RAW" class="1">
@@ -3088,14 +2996,22 @@ SMT- SWCH-08247</description>
 <wire x1="-20.32" y1="60.96" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<<<<<<< HEAD
+<pinref part="NPN" gate="G$1" pin="C"/>
+=======
 <pinref part="Q1" gate="G$1" pin="C"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <wire x1="-20.32" y1="73.66" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-20.32" y="63.5"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<<<<<<< HEAD
+<pinref part="TEMP" gate="G$1" pin="+VS"/>
+=======
 <pinref part="IC1" gate="G$1" pin="+VS"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 <wire x1="-60.96" y1="12.7" x2="-50.8" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3103,11 +3019,6 @@ SMT- SWCH-08247</description>
 <wire x1="35.56" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="S1" gate="S" pin="1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
-<label x="127" y="48.26" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -3147,14 +3058,15 @@ SMT- SWCH-08247</description>
 </net>
 <net name="D3" class="0">
 <segment>
-<wire x1="40.64" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="10.16" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
 <label x="48.26" y="10.16" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="9"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
-<label x="127" y="45.72" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="60.96" y1="10.16" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
+<junction x="60.96" y="48.26"/>
+<pinref part="S1" gate="S" pin="3"/>
 </segment>
 </net>
 <net name="!RST" class="0">
@@ -3184,7 +3096,11 @@ SMT- SWCH-08247</description>
 <wire x1="-30.48" y1="12.7" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="12.7" x2="-25.4" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
+<<<<<<< HEAD
+<pinref part="TEMP" gate="G$1" pin="VO"/>
+=======
 <pinref part="IC1" gate="G$1" pin="VO"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </segment>
 </net>
 <net name="TX" class="0">
@@ -3252,15 +3168,9 @@ SMT- SWCH-08247</description>
 </net>
 <net name="D7" class="0">
 <segment>
-<wire x1="40.64" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
 <label x="48.26" y="20.32" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="S1" gate="S" pin="3"/>
-<wire x1="58.42" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="20.32" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<junction x="58.42" y="48.26"/>
 </segment>
 </net>
 <net name="VDDA" class="0">
@@ -3301,13 +3211,21 @@ SMT- SWCH-08247</description>
 <label x="2.54" y="7.62" size="1.778" layer="95"/>
 <wire x1="-20.32" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-20.32" y="48.26"/>
+<<<<<<< HEAD
+<pinref part="NPN" gate="G$1" pin="E"/>
+=======
 <pinref part="Q1" gate="G$1" pin="E"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <wire x1="-35.56" y1="55.88" x2="-25.4" y2="55.88" width="0.1524" layer="91"/>
+<<<<<<< HEAD
+<pinref part="NPN" gate="G$1" pin="B"/>
+=======
 <pinref part="Q1" gate="G$1" pin="B"/>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3319,6 +3237,8 @@ SMT- SWCH-08247</description>
 </nets>
 </sheet>
 </sheets>
+<<<<<<< HEAD
+=======
 <errors>
 <approved hash="106,1,40.64,27.94,!RST,,,,,"/>
 <approved hash="106,1,12.7,10.16,A3,,,,,"/>
@@ -3339,6 +3259,7 @@ SMT- SWCH-08247</description>
 <approved hash="115,1,-21.8155,55.88,Q1,,,,,"/>
 <approved hash="115,1,48.26,50.4105,S1,,,,,"/>
 </errors>
+>>>>>>> e26b702a47806b64930007b3536c9f2982892e88
 </schematic>
 </drawing>
 </eagle>
